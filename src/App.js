@@ -1,4 +1,4 @@
-import {memo, useEffect, useMemo, useState} from "react";
+import {useEffect, useMemo, useState} from "react";
 import Calculator from "./Calculator";
 import ToggleSounds from "./ToggleSounds";
 
@@ -58,6 +58,7 @@ function App() {
 
       <ToggleSounds allowSound={allowSound} setAllowSound={setAllowSound} />
       <Calculator workouts={workouts} allowSound={allowSound} />
+
     </main>
   );
 }
